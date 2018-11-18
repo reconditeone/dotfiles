@@ -103,9 +103,10 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -lah'
+alias ll='ls -lh'
 alias la='ls -A'
 alias l='ls -CF'
+alias lla='ls -lah'
 alias em='emacs -nw'
 alias dd='dd status=progress'
 alias _='sudo'
